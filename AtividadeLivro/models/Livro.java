@@ -2,6 +2,7 @@ package AtividadeLivro.models;
 
 public class Livro
 {
+    // Atributos da classe
     private String titulo;
     private String autor;
     private int paginas;

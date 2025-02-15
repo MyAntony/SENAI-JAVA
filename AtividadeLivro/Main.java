@@ -5,7 +5,7 @@ import java.util.Scanner;
 import AtividadeLivro.models.Livro;
 
 public class Main
-{
+{   
     public static void main(String[] args)
     {
         Livro[] livro = new Livro[3];
@@ -43,5 +43,6 @@ public class Main
             System.out.println("Custa R$ " + livro[i].getPreco());
         }
 
+        ler.close();
     }
 }
