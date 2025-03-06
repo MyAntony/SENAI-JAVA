@@ -1,17 +1,17 @@
-package Atividade_27_02_2025;
+package Aula_Revisional;
 
-import Atividade_27_02_2025.Models.*;
+import Aula_Revisional.models.Galo;
+import Aula_Revisional.models.Gato;
+import Aula_Revisional.models.Pato;
 
 public class Main
 {
     public static void main(String[] args)
     {
+        Galo galo = new Galo();
         Gato gato = new Gato();
         Pato pato = new Pato();
-        Galo galo = new Galo();
-        // Animal gato = new Gato(); <- Outra forma de instanciar
-        // Animal[] animais = {gato, pato, galo}; <- Outra forma de instanciar
-        
+
         System.out.println("Gato: " + gato.emitirSom() + " - " + gato.comer());
         System.out.println("Pato: " + pato.emitirSom() + " - " + pato.comer());
         System.out.println("Galo: " + galo.emitirSom() + " - " + galo.comer());

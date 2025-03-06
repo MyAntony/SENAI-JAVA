@@ -1,4 +1,4 @@
-package Atividade_27_02_2025.Models;
+package Aula_Revisional.models;
 
 public interface Animal
 {
