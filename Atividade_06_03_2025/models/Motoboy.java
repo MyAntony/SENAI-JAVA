@@ -4,9 +4,8 @@ public class Motoboy extends Funcionario
 {
     private String carteiraDeHabilitacao;
     
-    public Motoboy(String nome, String dataNascimento, Sexo sexo, Setor setor, double salario,
-            String carteiraDeHabilitacao)
-            {
+    public Motoboy(String nome, String dataNascimento, Sexo sexo, Setor setor, double salario, String carteiraDeHabilitacao)
+    {
         super(nome, dataNascimento, sexo, setor, salario);
         this.carteiraDeHabilitacao = carteiraDeHabilitacao;
     }

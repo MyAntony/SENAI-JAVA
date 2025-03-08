@@ -7,6 +7,7 @@ public abstract class Funcionario
     protected Sexo sexo;
     protected Setor setor;
     protected double salario;
+    // protected boolean;
     
     public Funcionario()
     {
