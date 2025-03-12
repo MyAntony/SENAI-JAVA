@@ -1,12 +1,12 @@
 package Atividade_07_03_2025.models;
 
-public abstract class Funcionario
+public abstract class Funcionario implements SalarioFinal
 {
     protected String nome;
     protected String cpf;
-    protected String dataNascimento;
+    protected String dataNascimento;    
     protected double salarioBase;
-    
+
     public Funcionario(String nome, String cpf, String dataNascimento, double salarioBase)
     {
         this.nome = nome;
@@ -58,9 +58,6 @@ public abstract class Funcionario
     @Override
     public String toString()
     {
-        return "Funcionario [nome=" + nome + ", cpf=" + cpf + ", dataNascimento=" + dataNascimento + ", salarioBase="
-                + salarioBase + "]";
+        return "Nome: " + nome + "\n" + "CPF: " + cpf + "\n" + "Data de Nascimento: " + dataNascimento + "\n" + "Salário Base: " + salarioBase;
     }
-
-    
 }
